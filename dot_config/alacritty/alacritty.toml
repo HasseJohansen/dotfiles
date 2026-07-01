@@ -1,0 +1,14 @@
+[scrolling]
+#history = 100000
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [
+    { key = "Left", mods = "Option", chars = "\u001bb" },
+    { key = "Right", mods = "Option", chars = "\u001bf" },
+    { key = "Key0", mods = "Control", action = "ResetFontSize" },
+    { key = "+", mods = "Control", action = "IncreaseFontSize" },
+    { key = "-", mods = "Control", action = "DecreaseFontSize" }
+]
